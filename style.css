@@ -54,10 +54,6 @@ body {
 	margin: 0;
 }
 
-.hero-image img {
-	background-color: lightgrey;
-}
-
 .hero-text {
 	display: flex;
 	flex-direction: column;
@@ -141,4 +137,49 @@ body {
 .quote-section p {
 	align-self: flex-end;
 	font-weight: 900;
+}
+
+/* SIGN UP SECTION */
+
+.call-to-action {
+	background-color: #3882f6;
+	display: flex;
+	border-radius: 10px;
+
+	align-items: center;
+
+	margin: 100px 250px;
+	padding: 20px 100px;
+}
+
+.call-to-action-text {
+	color: white;
+	flex: 2;
+	padding: 30px;
+}
+
+.call-to-action-text .call-to-action-header {
+	font-weight: 900;
+}
+
+.call-to-action-header p,
+.call-to-action-text p {
+	margin-bottom: 0;
+	margin-top: 2px;
+}
+
+.call-to-action-button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex: 1;
+}
+
+.call-to-action-button button {
+	background-color: #3882f6;
+	color: white;
+	border: 1px solid white;
+	border-radius: 5px;
+	padding: 5px 20px;
+	font-weight: bolder;
 }
