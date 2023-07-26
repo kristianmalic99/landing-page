@@ -122,3 +122,23 @@ body {
 	border: 3px solid #3882f6;
 	border-radius: 10px;
 }
+
+/* QUOTE SECTION */
+
+.quote-section {
+	background-color: #e5e7eb;
+	display: flex;
+	flex-direction: column;
+	padding: 100px 350px;
+}
+
+.quote-section .quote {
+	font-size: 36px;
+	font-weight: lighter;
+	color: #1f2937;
+}
+
+.quote-section p {
+	align-self: flex-end;
+	font-weight: 900;
+}
