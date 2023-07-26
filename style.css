@@ -88,3 +88,37 @@ body {
 	font-size: 18px;
 	color: #e5e7eb;
 }
+
+/* INFORMATION SECTION */
+
+.information-section h3 {
+	text-align: center;
+
+	font-size: 36px;
+	font-weight: 900;
+	color: #1f2937;
+}
+
+.cards-section {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 100px;
+	gap: 40px;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	width: 200px;
+}
+
+.card p {
+	text-align: center;
+}
+
+.subtext {
+	height: 200px;
+	width: 200px;
+	border: 3px solid #3882f6;
+	border-radius: 10px;
+}
